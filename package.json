@@ -33,5 +33,7 @@
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "node-forge": "^0.10.0"
+  }
 }
