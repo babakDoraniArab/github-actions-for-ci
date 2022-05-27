@@ -88,18 +88,18 @@ const fs = require('fs')
 //       }
 //     })
 
-    it('Wins if down-left diagonal is filled', async () => {
-      for (let r = 0; r < game.board.length; r++) {
-        game.board[r][r] = 'X'
-      }
-      expect(game.hasWinner()).toBe(true)
-    })
+//     it('Wins if down-left diagonal is filled', async () => {
+//       for (let r = 0; r < game.board.length; r++) {
+//         game.board[r][r] = 'X'
+//       }
+//       expect(game.hasWinner()).toBe(true)
+//     })
 
-    it('Wins if up-right diagonal is filled', async () => {
-      for (let r = 0; r < game.board.length; r++) {
-        game.board[2 - r][r] = 'X'
-      }
-      expect(game.hasWinner()).toBe(true)
-    })
+//     it('Wins if up-right diagonal is filled', async () => {
+//       for (let r = 0; r < game.board.length; r++) {
+//         game.board[2 - r][r] = 'X'
+//       }
+//       expect(game.hasWinner()).toBe(true)
+//     })
   })
 })
