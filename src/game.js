@@ -1,7 +1,7 @@
 export default class Game {
   constructor (p1, p2) {
     this.p1 = p1
-    this.p2 = 'Bananas'
+    this.p2 = p2
     this.board = [[null, null, null], [null, null, null], [null, null, null]]
     this.player = Math.random() < 0.5 ? this.p1 : this.p2
     this.sym = 'X'
